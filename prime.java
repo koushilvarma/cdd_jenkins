@@ -1,4 +1,7 @@
-public static boolean isPrime(int n) {
+public class prime {
+
+	// Check if a number is prime
+	public static boolean isPrime(int n) {
 		if (n < 2) return false;
 		if (n == 2) return true;
 		if (n % 2 == 0) return false;
